@@ -112,6 +112,10 @@ In these kind of teams, engineers are expected to have end-to-end knowledge rega
 
 including: analyzing requirements, designing, implementing, testing and deploying their systems.
 
+= Conway's Law & Microservices
+
+Engineers become the product owners.
+
 = Amazon.com
 
 (('tag:center'))Example in Real-life
