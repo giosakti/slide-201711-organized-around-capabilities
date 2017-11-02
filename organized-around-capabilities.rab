@@ -1,0 +1,264 @@
+= Organized Around Business Capabilities
+
+% : subtitle
+%   in Ruby
+: author
+   Giovanni Sakti
+: institution
+   Starqle
+% : content-source
+%    id_ruby
+% : date
+%    2017-11-01
+: theme
+   starqle
+
+= Team Structure
+
+(('tag:center'))How do you structure your teams on your organization?
+
+== properties
+  : hide-title
+    true
+
+= Team Structure
+
+(('tag:center'))This kind of structure is probably pretty common..
+
+== properties
+  : hide-title
+    true
+
+= Team Structure
+
+* Front-end
+* Back-end
+* Ops
+* DBA
+* Analyst
+* QA
+
+= Team Structure
+
+(('tag:center'))That organization built the structure around technology
+
+== properties
+  : hide-title
+    true
+
+= Team Structure
+
+(('tag:center'))Is the structure of a team important?
+
+== properties
+  : hide-title
+    true
+
+= Conway's Law
+
+(('tag:center'))Conway's Law
+
+== properties
+  : hide-title
+    true
+
+= Conway's Law
+
+  # blockquote
+  # title = Conway's Law
+  Organizations which design systems....are constrained to produce designs which are copies of the communication structures of these organizations.
+
+== properties
+  : hide-title
+    true
+
+= Conway's Law
+
+(('tag:center'))Why is that happening?
+
+= Conway's Law
+
+(('tag:center'))In order for a software module to function, multiple authors must ((*communicate frequently*)) with each other..
+
+= Conway's Law
+
+(('tag:center'))..therefore, the software interface structure of a system ((*will reflect the social boundaries*)) of the organization(s) that produced it.
+
+= Conway's Law
+
+(('tag:center'))There is also predefined assumption that communication across teams is more difficult.
+
+= Conway's Law & Microservices
+
+(('tag:center'))The impact of Conway's Law to Microservices Architecture
+
+== properties
+  : hide-title
+    true
+
+= Conway's Law & Microservices
+
+It is much, much more preferrable to organize people around business capabilities within cross-functional teams.
+
+= Conway's Law & Microservices
+
+For example: order team, shipping team, billing team, etc.
+
+= Conway's Law & Microservices
+
+In these kind of teams, engineers are expected to have end-to-end knowledge regarding their slice of responsibility.
+
+= Conway's Law & Microservices
+
+including: analyzing requirements, designing, implementing, testing and deploying their systems.
+
+= Amazon.com
+
+(('tag:center'))Example in Real-life
+
+== properties
+  : hide-title
+    true
+
+= Amazon.com
+
+(('tag:center'))Amazon.com
+
+== properties
+  : hide-title
+    true
+
+= Amazon.com
+
+(('tag:center'))When you access amazon.com website and type in 'shoes' on its search bar..
+
+= Amazon.com
+
+(('tag:center'))..there are over 170 individual applications potentially triggered from that search.
+
+= Amazon.com
+
+(('tag:center'))Pricing, images, reviews, recommendations and many other features on that single page are consist of individual applications or services.
+
+= Amazon.com
+
+(('tag:center'))Each services may have different language, different data storage system, different scaling or automation.
+
+= Amazon.com
+
+(('tag:center'))Amazon.com is a famous example on how microservices can be done on a very large scale.
+
+= Amazon.com
+
+(('tag:center'))What triggers them to move to microservices architecture?
+
+= Amazon.com
+
+(('tag:center'))In early 2000s, amazon.com was still a large monolithic application.
+
+= Amazon.com
+
+(('tag:center'))There was this one story in 2000, when they want to rolout a major feature and had to reconcile changes from hundreds of developers.
+
+= Amazon.com
+
+(('tag:center'))They have to resolve all the conflicts, merge them into a single version, rebuilt everything and rerun all the tests.
+
+= Amazon.com
+
+(('tag:center'))The process takes weeks. It means lots of fixes for critical bugs potentially held from being released during that process.
+
+= Amazon.com
+
+(('tag:center'))That's what triggers Amazon.com to rethink everything about their architecture.
+
+= Amazon.com
+
+(('tag:center'))Amazon have several philosophies regarding their teams organization
+
+= Amazon.com
+
+(('tag:center'))The two pizzas rule.
+
+= Amazon.com
+
+(('tag:center'))The highlights from that rule is to encourage ((*direct communication*)) between them and to their customers.
+
+= Amazon.com
+
+(('tag:center'))Microservices is much more about team organization than software architecture.\n
+(('sub:But those two are always heavily coupled together'))
+
+= Amazon.com
+
+(('tag:center'))Developers empowerment.
+
+= Amazon.com
+
+(('tag:center'))There will be exactly one nominated team for a particular piece of data. They will be fully in control of that data.
+
+= Amazon.com
+
+(('tag:center'))More freedom for developers to implement something as they see fit.
+# The expectation is that they will do it quicker, they will be more satisfied as employees, and you will have a more reliable system as a result.
+
+= Drawbacks
+
+(('tag:center'))Drawbacks
+
+== properties
+  : hide-title
+    true
+
+= Drawbacks
+
+(('tag:center'))There are drawbacks involved when we structure teams like this.
+
+= Drawbacks
+
+(('tag:center'))It is not easy to determine boundaries between servies.
+
+= Drawbacks
+
+(('tag:center'))It will work well.. until key people in certain services leave.\n
+(('sub:And the documentation in those services are lacking'))
+
+= Drawbacks
+
+(('tag:center'))Versioning hundreds of services are hard.
+
+= Advantages
+
+(('tag:center'))But the advantages are also huge..
+
+== properties
+  : hide-title
+    true
+
+= Advantages
+
+(('tag:center'))..if you are the right organization and executed it right.
+
+= Advantages
+
+(('tag:center'))Services can be updated individually.
+
+= Advantages
+
+(('tag:center'))New applications can be built quickly from existing services.
+
+= Advantages
+
+(('tag:center'))Greater visibility on who is responsible for what.
+
+= Advantages
+
+(('tag:center'))Developers enjoy greater authority and work satisfaction.
+
+= Thanks!
+
+(('tag:center'))Thanks!
+
+== properties
+  : hide-title
+    true
