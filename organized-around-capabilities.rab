@@ -40,7 +40,7 @@
 
 = Team Structure
 
-(('tag:center'))That organization built the structure around technology
+(('tag:center'))That organization built the structure around ((*technology*))
 
 == properties
   : hide-title
@@ -86,7 +86,7 @@
 
 = Conway's Law
 
-(('tag:center'))There is also predefined assumption that communication across teams is more difficult.
+(('tag:center'))There is also predefined assumption that communication ((*across teams*)) is more ((*difficult*)).
 
 = Conway's Law & Microservices
 
@@ -98,23 +98,28 @@
 
 = Conway's Law & Microservices
 
-It is much, much more preferrable to organize people around business capabilities within cross-functional teams.
+(('tag:center'))It is much, much more preferrable to organize people ((*around business*)) capabilities within cross-functional teams.
 
 = Conway's Law & Microservices
 
-For example: order team, shipping team, billing team, etc.
+(('tag:center'))For example: order team, shipping team, billing team, etc.
 
 = Conway's Law & Microservices
 
-In these kind of teams, engineers are expected to have end-to-end knowledge regarding their slice of responsibility.
+(('tag:center'))In these kind of teams, engineers are expected to have ((*end-to-end*)) knowledge regarding their slice of responsibility.
 
 = Conway's Law & Microservices
 
-including: analyzing requirements, designing, implementing, testing and deploying their systems.
+Engineer's Role:
+* Analyzing requirements
+* Designing
+* Implementing
+* Testing
+* Deploying
 
 = Conway's Law & Microservices
 
-Engineers become the product owners.
+(('tag:center'))Engineers become the ((*product owners*)).
 
 = Amazon.com
 
@@ -142,11 +147,14 @@ Engineers become the product owners.
 
 = Amazon.com
 
-(('tag:center'))Pricing, images, reviews, recommendations and many other features on that single page are consist of individual applications or services.
+(('tag:center'))Pricing, images, reviews, recommendations and many other features on that single page are consist of ((*individual applications*)) or services.
 
 = Amazon.com
 
-(('tag:center'))Each services may have different language, different data storage system, different scaling or automation.
+Each services may have:
+* different language
+* different data storage system
+* different scaling or automation.
 
 = Amazon.com
 
@@ -162,19 +170,28 @@ Engineers become the product owners.
 
 = Amazon.com
 
-(('tag:center'))There was this one story in 2000, when they want to rolout a major feature and had to reconcile changes from hundreds of developers.
+(('tag:center'))There was this one story in 2000:\n\n
+(('tag:center'))When they want to rollout a major feature and had to reconcile changes from hundreds of developers..
 
 = Amazon.com
 
-(('tag:center'))They have to resolve all the conflicts, merge them into a single version, rebuilt everything and rerun all the tests.
+They have to:
+* Resolve all the conflicts
+* Merge them into a single version
+* Rebuild everything
+* Rerun all the tests
 
 = Amazon.com
 
-(('tag:center'))The process takes weeks. It means lots of fixes for critical bugs potentially held from being released during that process.
+(('tag:center'))The process takes ((*weeks*)).
 
 = Amazon.com
 
-(('tag:center'))That's what triggers Amazon.com to rethink everything about their architecture.
+(('tag:center'))It means lots of fixes for critical bugs potentially ((*held*)) from being released during that process.
+
+= Amazon.com
+
+(('tag:center'))That triggers Amazon.com to rethink everything about their architecture.
 
 = Amazon.com
 
@@ -190,7 +207,7 @@ Engineers become the product owners.
 
 = Amazon.com
 
-(('tag:center'))Microservices is much more about team organization than software architecture.\n
+(('tag:center'))Microservices is much more about ((*team organization*)) than software architecture.\n
 (('sub:But those two are always heavily coupled together'))
 
 = Amazon.com
@@ -199,11 +216,12 @@ Engineers become the product owners.
 
 = Amazon.com
 
-(('tag:center'))There will be exactly one nominated team for a particular piece of data. They will be fully in control of that data.
+(('tag:center'))There will be exactly ((*one nominated team*)) for a particular piece of data.\n\n
+(('tag:center'))They will be ((*fully in control*)) of that data.
 
 = Amazon.com
 
-(('tag:center'))More freedom for developers to implement something as they see fit.
+(('tag:center'))More ((*freedom*)) for developers to implement something as they see fit.
 # The expectation is that they will do it quicker, they will be more satisfied as employees, and you will have a more reliable system as a result.
 
 = Drawbacks
@@ -218,9 +236,13 @@ Engineers become the product owners.
 
 (('tag:center'))There are drawbacks involved when we structure teams like this.
 
+== properties
+  : hide-title
+    true
+
 = Drawbacks
 
-(('tag:center'))It is not easy to determine boundaries between servies.
+(('tag:center'))It is ((*not easy*)) to determine boundaries between servies.
 
 = Drawbacks
 
@@ -229,7 +251,7 @@ Engineers become the product owners.
 
 = Drawbacks
 
-(('tag:center'))Versioning hundreds of services are hard.
+(('tag:center'))((*Versioning*)) hundreds of services are ((*hard*)).
 
 = Advantages
 
@@ -243,21 +265,25 @@ Engineers become the product owners.
 
 (('tag:center'))..if you are the right organization and executed it right.
 
-= Advantages
-
-(('tag:center'))Services can be updated individually.
-
-= Advantages
-
-(('tag:center'))New applications can be built quickly from existing services.
+== properties
+  : hide-title
+    true
 
 = Advantages
 
-(('tag:center'))Greater visibility on who is responsible for what.
+(('tag:center'))Services can be updated ((*individually*)).
 
 = Advantages
 
-(('tag:center'))Developers enjoy greater authority and work satisfaction.
+(('tag:center'))New applications can be built ((*quickly*)) from existing services.
+
+= Advantages
+
+(('tag:center'))Greater ((*visibility*)) on who is responsible for what.
+
+= Advantages
+
+(('tag:center'))Developers enjoy greater ((*authority*)) and work ((*satisfaction*)).
 
 = Thanks!
 
